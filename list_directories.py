@@ -7,8 +7,8 @@ from openpyxl import Workbook
 dirs = os.listdir()
 real_dir_list = []
 for my_dir in dirs:
-    if os.path.isdir(my_dir):
-        real_dir_list.append(my_dir)
+    # if os.path.isdir(my_dir):
+    real_dir_list.append(my_dir)
 
 book = Workbook()
 sheet = book.active
